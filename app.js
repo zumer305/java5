@@ -14,3 +14,15 @@ let student2=
     color:["brown","pink"],
 }
 console.log(student2);
+
+// practice
+let post={
+    username:"@zumer",
+    content:"This is my first post.",
+    likes:23,
+    reposts:12,
+    tags:"#zum #er",
+
+
+}
+console.log(post);
