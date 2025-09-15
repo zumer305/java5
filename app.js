@@ -105,6 +105,43 @@ console.log(info1[1].name);
 
 // objects build in
 console.log(Math);
+console.log(Math.PI);
+console.log(Math.E);
+
+// METHODS
+console.log(Math.abs(-5));   //negative to positive
+console.log(Math.pow(2,4)); //2**4
+console.log(Math.floor(5.5)); //round off (smallest  da ga 5)
+console.log(Math.floor(-5.5)); //round off (smallest  da ga -6)
+
+console.log(Math.ceil(5.5)); //round off (largest  da ga 6)
+console.log(Math.ceil(-5.5)); //round off (largest  da ga -5)
+console.log(Math.random());   // {0--1}   1 is not included
+
+
+// 1--10
+console.log(Math.floor(Math.random()*10 +1));  //+1        bcz random 0-9 da ga {phir 1-10 }
+console.log(Math.floor(Math.random()*10+1));
+console.log(Math.floor(Math.random()*10+1));
+console.log(Math.floor(Math.random()*10 +1));
+console.log(Math.floor(Math.random()*10+1));
+console.log(Math.floor(Math.random()*10+1));
+
+
+
+
+
+// 1-100
+console.log(Math.floor(Math.random()*100+1));
+
+// 1-5
+console.log(Math.floor(Math.random()*5+1));
+
+21-25
+console.log(Math.floor(Math.random()*5+21)); //*5(0,1,2,3,4)       +20(20,21,22,23,24)      +21(21,22,23,24,25)
+
+
+
 
 
 
