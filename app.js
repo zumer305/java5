@@ -55,6 +55,58 @@ delete post.coments;
 console.log(post);
 
 
+// nested (objects of objects)
+const info={
+    zumer:{
+        color:"brown",
+        city:"lahore"
+
+    },
+      asma:{
+        color:"red",
+        city:"lahore"
+
+    },
+      wahab:{
+        color:"pink",
+        city:"lahore"
+
+    },
+}
+console.log(info);
+console.log(info.asma.city);
+
+
+
+// nested (arrays of objects)
+const info1=[
+    {
+        name:"zumer",
+        color:"brown",
+        city:"lahore"
+
+    },
+    {
+        name:"asma",
+        color:"red",
+        city:"lahore"
+
+    },
+    {
+        name:"wahab",
+        color:"pink",
+        city:"lahore"
+
+    },
+]
+console.log(info1);
+console.log(info1[1].name);
+
+
+// objects build in
+console.log(Math);
+
+
 
 
 
